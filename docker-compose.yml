@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bankapp:
+    build: .
+    ports:
+      - "5000:5000"
